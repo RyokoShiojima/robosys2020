@@ -91,4 +91,6 @@ sudo rmmod myled
 
 ### 動作様子
  - 動画は「動作2 動作1 動作4 動作3 動作5 動作6 動作7 動作8」の順で実行しています
+ - 画像をクリックすると動画のリンクに飛びます。
+
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/7Iw7LvhsB9o/0.jpg)](https://www.youtube.com/watch?v=7Iw7LvhsB9o)
