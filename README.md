@@ -82,6 +82,7 @@ sudo rmmod myled
 ![iOS の画像 (2)](https://user-images.githubusercontent.com/40712113/101236979-8aa8e780-3718-11eb-97cc-e362ce28bb3a.jpg)
 
  - 配線の仕方
+   - ピンの位置など詳しくは[こちら](https://www.raspberrypi.org/documentation/usage/gpio/README.md)から確認してください。
    - 左のケーブルはGPIO25(物理ピン番号22)と接続
    - 真ん中のケーブルはGND(物理ピン番号39)と接続
    - 右のケーブルはGPIO6(物理ピン番号31)と接続
