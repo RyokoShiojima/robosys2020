@@ -1,14 +1,14 @@
 # robosys2020
  - ロボットシステム学で作成したデバイスドライバ
 
-###用意するもの
+### 用意するもの
  - Raspberry Pi 4 Model B
  - ブレッドボード
  - LED × 2
  - 抵抗 390Ω × 2
  - ジャンパーワイヤ(オス ー メス) × 3
 
-###ビルド
+### ビルド
 
 ```sh
 git clone https://github.com/RyokoShiojima/robosys2020.git
@@ -18,7 +18,7 @@ sudo insmod myled.ko
 sudo chmod 666 /dev/myled0
 ```
 
-###動作内容
+### 動作内容
 
 2つのLEDを"LED1","LED2"と定義して説明していきます。
 
@@ -46,7 +46,7 @@ sudo chmod 666 /dev/myled0
  - 動作8
    - LED1とLED2が交互に点灯した後、消灯(踏切のような動作)
 
-###実行
+### 実行
 
  - 動作1
 ```sh
@@ -88,12 +88,12 @@ echo 6 > /dev/myled0
 echo 7 > /dev/myled0
 ```
 
-###実行後に打つコマンド
+### 操作終了する際に打つコマンド
 ```sh
 sudo rmmod myled
 ```
 
-###配線
+### 配線
 
  - 全体図
 
@@ -107,6 +107,6 @@ sudo rmmod myled
 ![iOS の画像 (1)](https://user-images.githubusercontent.com/40712113/101236894-06eefb00-3718-11eb-8a85-de600cd2da4f.jpg)
 
 
-###動作様子
+### 動作様子
  - 動画は「動作2 動作1 動作4 動作3 動作5 動作6 動作7 動作8」の順で実行しています
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/7Iw7LvhsB9o/0.jpg)](https://www.youtube.com/watch?v=7Iw7LvhsB9o)
